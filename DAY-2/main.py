@@ -13,7 +13,7 @@ system_prompt = "You are a helpful AI assistant that analyzes images. You provid
 model = genai.GenerativeModel(os.getenv("GEMINI_MODEL_NAME", "gemini-2.5-flash"))
 
 # App Title
-st.title("🖼️ AI Image Caption Generator")
+st.title("🖼️ Fashion Advisor")
 st.markdown("Upload an image and AI will describe what it sees!")
 
 # Simple upload section
